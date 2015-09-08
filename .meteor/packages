@@ -13,3 +13,4 @@ stylus
 mquandalle:jade
 semantic:ui
 coffeescript
+flemay:less-autoprefixer
