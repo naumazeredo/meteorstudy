@@ -9,3 +9,5 @@ autopublish
 insecure
 sanjo:jasmine
 velocity:html-reporter
+stylus
+mquandalle:jade
