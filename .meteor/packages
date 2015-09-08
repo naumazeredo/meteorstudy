@@ -12,3 +12,4 @@ velocity:html-reporter
 stylus
 mquandalle:jade
 semantic:ui
+coffeescript
