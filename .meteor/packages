@@ -11,3 +11,4 @@ sanjo:jasmine
 velocity:html-reporter
 stylus
 mquandalle:jade
+semantic:ui
