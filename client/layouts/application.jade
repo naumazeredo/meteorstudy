@@ -2,14 +2,13 @@ head
 	title meteor-test
 
 body
-	div.ui.container
-		div.ui.pointing.menu
-			a.active.item Home
-			a.item Messages
-			a.item Friends
-	div.ui.container
-		+hello
-
-template(name='hello')
-	button Click me!
-	p You've pressed the button #{counter} times.
+	nav
+		div.ui.container
+			div.ui.inverted.borderless.menu
+				a.item
+					i.home.icon
+	div.ui.main.container
+		div.ui.horizontal.divider Home
+		div.ui.segment
+			+contents
+			+homepage

@@ -1,0 +1,13 @@
+template(name="contents")
+	.ui.right.rail
+		.ui.segment
+			.ui.header Accordion
+			.ui.vertical.fluid.accordion.text.menu
+				each menus
+					.item
+						a.title
+							i.dropdown.icon
+							b #{title}
+						.content.menu
+							each items
+								a.item(href=name) #{name}
