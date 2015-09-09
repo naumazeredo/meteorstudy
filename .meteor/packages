@@ -8,10 +8,11 @@ meteor-platform
 autopublish
 insecure
 sanjo:jasmine
-velocity:html-reporter
+#velocity:html-reporter
 stylus
 mquandalle:jade
 semantic:ui
 coffeescript
 flemay:less-autoprefixer
 jquery
+markdown
