@@ -16,3 +16,9 @@ coffeescript
 flemay:less-autoprefixer
 jquery
 markdown
+accounts-ui
+accounts-password
+accounts-facebook
+accounts-twitter
+accounts-google
+accounts-github
