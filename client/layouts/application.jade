@@ -2,8 +2,13 @@ head
 	title meteor-test
 
 body
-	h1 Welcome to meteor!
-	+hello
+	div.ui.container
+		div.ui.pointing.menu
+			a.active.item Home
+			a.item Messages
+			a.item Friends
+	div.ui.container
+		+hello
 
 template(name='hello')
 	button Click me!
